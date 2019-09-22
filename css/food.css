@@ -1,0 +1,24 @@
+.food {
+    display: grid;
+    grid-template-columns: minmax(250px, 1fr) 1fr;
+    width: 65%;
+    grid-gap: 10px;
+}
+@media(max-width: 768px) {
+    .food {
+        width: 96%;
+        grid-gap: 4px;
+
+        
+    }
+  
+}
+
+.food div {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+.food img  {
+width: 100%;
+}
+

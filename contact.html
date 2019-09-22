@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navabr.css">
+    <link rel="stylesheet" href="css/food.css">
+    <link rel="stylesheet" href="css/contect2.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Shadows+Into+Light&display=swap" rel="stylesheet">
+
+    <title>Hotel For You</title>
+</head>
+
+<body>
+
+<section class="top-nav">
+    <div>Hotel For You</div>
+    <input type="checkbox" id="menu-toggle"/>
+    <label class="menu-button-container" for="menu-toggle">
+    <div class="menu-button"></div>
+    </label>
+    <ul class="menu">
+        <li><a href="index.html">Hem</a></li>
+        <li><a href="galleri.html">Galleri</a></li>
+        <li><a href="contact.html">Kontakta oss</a></li>
+        <li><a href="food.html">Mat & Drick</a></li>
+    </ul>
+</section>
+  <div class="header">
+  <img src="/images/backg.jpeg" alt="">
+    <h1>Kontakta oss</h1>
+  </div>
+    <div class="container">
+        <div class="left">
+            <form id="form" action="#">
+                <div class="form-group">
+                    <label for="fname">
+                        <input type="text" id="fname" class="input" placeholder="förnamn t.ex. Linda"
+                            required="required">
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label for="lname">
+                        <input type="text" id="lname" class="input" placeholder="efternamn t.ex. Lars" required>
+                    </label>
+                </div>
+                <span class="input-headlines">Välj boende</span>
+                <div class="form-group">
+                    <select name="selectroom" id="selectroom" class="input" required>
+                        <option value="">Enkel rum</option>
+                        <option value="">Dubbelt rum</option>
+                        <option value="">Grupprum</option>
+                    </select>
+                </div>
+                <div class="calendar-in">
+                    <span class="input-headlines">Incheckning</span>
+                    <label for="indate">
+                        <input type="date" id="indate" class="input" required>
+                        <input type="time" class="input">
+                    </label>
+                </div>
+                <div class="calender-out">
+                    <span class="input-headlines">Utcheckning</span>
+                    <label for="outdata">
+                        <input type="date" id="outdata" class="input" required>
+                        <input type="time" class="input">
+                    </label>
+                </div>
+                <a href="#">Boka</a>
+            </form>
+        </div>
+        <div class="contact-2">
+            <div>
+            <h2>Kontakta oss</h2>
+            <form action="#" id="form-2">
+                <label for="fname">Ditt namn:</label>
+                <input type="text" id="fname" placeholder="ditt namn">
+                <label for="email">E-post</label>
+                <input type="email" placeholder="e-post" id="email">
+                
+                <a href="mailto:mukhtar1100@hotmail.com" id="sendbtn">Skicka</a>
+            </form>
+            </div>
+        </div>
+        <div class="right">
+            <div class="right-news-1">
+                <h2>News</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptates.</p>
+                </div>
+                <div class="right-news-2">
+                    <h2>News</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quasi?</p>
+                    </div>
+                    <div class="right-news-3">
+                        <h2>News</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptates.</p>
+                        </div>
+                        <div class="right-news-4">
+                            <h2>News</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, voluptates.</p>
+                            </div>
+        </div>
+    </div>
+    <div class="footer" id="footerid">
+        <div class="footer-inner">
+            <ul>
+                <li class="footer-info"><strong>Adress</strong></li>
+                <li><a href="#">Ystarvägen 139</a></li>
+                <li><a href="#">07xxxx00</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-inner">
+            <ul>
+                <span class="footer-info"><strong>Kontakt info</strong></span>
+                <li><a href="#">Kontakta oss</a></li>
+                <li><a href="#">Galleri</a></li>
+                <li><a href="#">Mat & Drick</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-inner">
+            <ul>
+                <li class="footer-info"><strong>Social media</strong></li>
+                <li>
+                    <a href="https://www.facebook.com/">
+                        <img src="images/fb.png" class="fb" alt="facebook logo" style="width:30px; height:30px;border:0; border-radius: 45%;">
+                      </a>
+                      
+                </li>
+                <li><a href="https://www.instagram.com/">
+                    <img src="images/in.jpeg" class="in" alt="instagram" style="width:30px;height:30px;border:0; border-radius: 45%;">
+                  </a></li>
+                <li><a href="https://twitter.com/">
+                    <img src="images/ti.png" class="ti" alt="twitter" style="width:30px;height:30px;border:0; border-radius: 45%;">
+                  </a></li>
+            </ul>
+        </div>
+
+        <div class="footer-inner">
+            <ul>
+                <li class="footer-info"><strong>Maps</strong></li>
+                <li><a href="#">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d439.4505955152421!2d20.314425!3d63.859615!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467c5b329b1b8663%3A0x6db57c39515df748!2zWXN0YXJ2w6RnZW4sIFVtZcOl!5e0!3m2!1sen!2sse!4v1569164500214!5m2!1sen!2sse" width="120" height="110" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                
+                </a></li>
+                </ul>
+        </div>
+    </div>
+</body>
+
+</html>

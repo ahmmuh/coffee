@@ -1,0 +1,244 @@
+
+.container > div {
+    border: 1px #ccc solid;
+    
+}
+
+
+.header img{
+    width: 100%;
+    height: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    opacity: 0.5;
+  
+}
+.header h1{
+ color: #000;
+ font-size: 60px;
+ text-align: center;
+ font-family: 'Indie Flower', cursive;
+font-family: 'Dancing Script', cursive;
+transform: skew(15deg, -4deg);
+}
+.header p{
+    font-size: 23px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.header h1 {
+    position: absolute;
+    top: 5%;
+    padding-left: 50%;
+    transform: translate(-20%, 20%);
+    color: #000;
+    text-shadow: 5px 6px rgba(175, 116, 6, 0.733)
+    
+}
+.header p {
+    position: absolute;
+    top: 25%;
+    padding-left: 50%;
+    transform: translate(-20%, 20%);
+    color: #000;
+    text-shadow: 3px 3px rgba(156, 149, 145, 0.925)
+}
+h3{
+font-family: 'Lobster', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Monoton', cursive;
+font-size: 2rem;
+}
+
+
+@media(min-width: 768px){
+    .container {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        
+    }
+    .
+   
+}
+
+.container .left {
+    flex-basis: 15%;
+    padding: 3px;
+}
+
+.container .content {
+    flex-basis: 60%;
+    padding: 3px;
+    border-bottom: 1px #ccc solid;
+}
+.content .content-inner{
+    padding: 10px;
+  
+}
+.content-inner:hover{
+    background-color: lightgray;
+    transition: 1s ease;
+    opacity: 0.8;
+}
+.content .content-inner h3, p{
+    margin: 3px;
+}
+.content-inner p{
+    font-size: 20px;
+}
+.content-inner img{
+    width: 65%;
+    float: left;
+    margin-right: 1rem;
+}
+.content-inner a {
+display: inline-block;
+width: 100%;
+background: #00b894;
+height: 44px;
+line-height: 40px;
+text-align: center;
+border-radius: 5rem;
+margin: 10px 10px 2px -5px;
+color: #fff;
+text-decoration: none;
+font-family: 'Courgette', cursive;
+font-size: 23px;
+}
+.content-inner a:hover{
+    background: #333;
+    color: #fff;
+    transition: ease-in;
+}
+
+.container .right {
+    flex-basis: 15%;
+    padding: 3px;
+}
+
+.right h2, p{
+    padding: 2px;
+    text-align: center;
+}
+
+
+ .input{
+    width: 90%;
+    margin: 2px;
+    padding: 6px;
+    font-size: 16px;
+    color: #000;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.input-headlines{
+    font-size: 24px;
+    padding: 3px;
+}
+#form a {
+    display: inline-block;
+    width: 100%;
+    background: #00b894;
+    height: 2.2rem;
+    text-align: center;
+    line-height: 34px;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Courgette', cursive;
+    font-size: 23px;   
+}
+#form a:hover{
+    background: #333;
+    color: #fff;
+    transform:  rotate(1deg);
+    transition: ease-in;
+}
+
+.footer{
+    background: #333;
+    display: flex;
+    clear: both;
+    position: relative;
+    height: 200px;
+}
+.footer .footer-inner li{
+    list-style-type: none;
+    
+    
+}
+.footer-inner li a{
+    padding: 10px;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    
+}
+.footer-inner li a:hover{
+    color: lightgray;
+    text-decoration: underline
+    
+ }
+ .footer-info{
+    color: #fff;
+    font-size: 26px;
+    text-decoration: underline;
+    font-family: 'Indie Flower', cursive;
+ }
+ 
+ /* Galleri style starts here */
+
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+     grid-gap: 10px;
+     margin-top: 15px;
+     margin-bottom: 10px;
+     width: 64%;
+    
+    }
+ .grid div {
+    padding: 10px;    
+    border:  1px solid silver;
+
+ }
+ .grid img {
+    width: 100%;
+    float: left;
+    margin-right: 1rem;
+ }
+ .grid div:hover{
+    background-color: lightcyan;
+ }
+ .grid div h2{
+    font-size: 17px;
+    padding: 2px;
+ }
+ 
+ .grid div .readmore{
+    display: inline-block;
+    background-color: #567;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    width: 100%;
+    text-align: center;
+    height:35px;
+    padding: 1px;
+    line-height: 30px;
+    text-decoration: none;
+ }
+ @media(max-width: 768px){
+    .grid{
+        display: grid;
+        grid-template-columns:  1fr;
+        width: 100%;
+        grid-gap: 10px;
+    }
+ }
